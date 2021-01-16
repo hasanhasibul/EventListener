@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="text-align: center;margin-top:100px;">
+    <h1>This is header</h1>
+    <button id="btn1" >Click Me-1</button>
+    <button id="btn2">Click Me-2</button>
+    <button id="btn3">Click Me-3</button>
+    <button id="btn4">Click Me-4</button>
+
+    <script>
+    function backgroundColor1(){
+        document.body.style.backgroundColor="tomato";
+    }
+    function backgroundColor2(){
+        document.body.style.backgroundColor="black";
+    }
+    function backgroundColor3(){
+        document.body.style.backgroundColor="yellow";
+    }
+    function backgroundColor4(){
+        document.body.style.backgroundColor="green";
+    }
+     var btn1 =document.getElementById('btn1');
+     btn1.addEventListener('click',backgroundColor1);
+
+     var btn2 =document.getElementById('btn2');
+     btn2.addEventListener('click',backgroundColor2);
+
+     var btn3 =document.getElementById('btn3');
+     btn3.addEventListener('click',backgroundColor3);
+
+     var btn4 =document.getElementById('btn4');
+     btn4.addEventListener('click',backgroundColor4);
+    </script>
+</body>
+</html>
